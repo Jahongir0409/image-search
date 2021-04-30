@@ -1,0 +1,123 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  -webkit-box-sizing:inherit;
+          box-sizing:inherit;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/body.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 1300px;
+  padding: 0 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  width: 500px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  box-shadow:  0 0 10px white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.6));
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+h3 {
+  color: orangered;
+  margin: 0;
+  color: yellow;
+  padding: 0;
+  font-size: 32px;
+  text-shadow:  0 0 5px white;
+}
+/*#img2 {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}*/
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 80%;
+  color: white;
+}
+button {
+  border: none;
+  outline: none;
+  width: 80px;
+  padding: 8px 15px;
+  border-radius: 8px;
+  background-color: #7FDF30;
+  color: white;
+}
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin-top: 20px;
+}
+#img {
+  margin-right: auto;
+  margin-left: auto;
+}
+.remove {
+  display: none;
+}
+
+.icons {
+  margin-top: 20px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 35px;
+}
+input:placeholder-shown {
+  border-color: teal;
+  color: purple;
+  font-style: italic;
+}
+input::-webkit-input-placeholder {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#icon1 {
+  color: #7AED1C;
+}
+#icon2 {
+  color: red;
+}
+#icon3 {
+  color: #DF2F7A;
+}
